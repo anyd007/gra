@@ -1,27 +1,33 @@
 body{
-    width: 100%;
-    height: auto;
-    background-image: url("../img/SLY_WILI_bank_07.jpg");
+    height:100vh;
+    /*height: auto;*/
+    background-image: url("../images/SLY_WILI_bank_07.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 
 }
+
+
 div.dollars {
+
     position: relative;
-    margin-top: 40%;
+    max-height: 50%;
+    margin-top: 0%;
     height: 100%;
 }
 
 div.wallet {
     position: relative;
-    margin-left: 7%;
-    margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 15%;
 }
-div #wall1 {
+div .wall1 {
     border-radius: 10%;
-    margin-top: -70vh;
-    height: 220px;
-    width: 270px;
-    background-image: url("../img/a829a2c10034aabefa12e9a2b5a1548a.png");
+    margin-top: 0%;
+    height: 12vw;
+    width: 14vw;
+    background-image: url("../images/a829a2c10034aabefa12e9a2b5a1548a.png");
     background-size: cover;
     animation: moveLeftToRight 8s 4s linear infinite alternate;
     transition: all 1s ease;
@@ -31,177 +37,89 @@ div #wall1 {
 
 
 @keyframes moveLeftToRight {
-    0% {
-        left: 0%;
-    }
-    50% {
-        left: 100%;
-    }
-    75% {
-        left: 50%;
-    }
-    100% {
-        left: 0%;
-    }
+    0% {  left: 0%;  }
+    50% {  left: 100%;  }
+    75% {  left: 50%;  }
+    100% {  left: 0%;  }
+}
+div .dol1 {
+    margin-top: 22%;
+    height: 6vw;
+    width: 5.5vw;
+    background-image:url("../images/050c9b508ccbac03368e31a12fd2857c.png");
+    background-size:cover;
+    /*animation: moveLeftToRight 8s linear infinite;*/
+    /*transition: all 1s ease;*/
+    position: absolute;
+    left: 0;
+}
+/*@keyframes moveLeftToRight {*/
+    /*0%   { left: -100px; }*/
+    /*100% { left: 100%; }*/
+/*}*/
 
-}
-div #dol1 {
-    margin-top: -35vh;
-    height: 140px;
-    width: 130px;
-    background-image:url("../img/050c9b508ccbac03368e31a12fd2857c.png");
+div .dol2 {
+    margin-top: 22%;
+    height: 6vw;
+    width: 5.5vw;
+    background-image:url("../images/animated-clipart-dollar-free-sign-17.png");
     background-size: cover;
-    animation: moveLeftToRight 10s linear infinite;
-    transition: all 1s ease;
+    /*animation: moveLeftToRight 8s 1s linear infinite;*/
     position: absolute;
     left: 0;
 }
-@keyframes moveLeftToRight {
-    0%   { left: -100px; }
-    100% { left: 100%; }
+/*@keyframes moveLeftToRight {*/
+    /*0%   { left: -100px; }*/
+    /*100% { left: 100%; }*/
+/*}*/
+div .dol3 {
+    margin-top: 22%;
+    height: 6vw;
+    width: 10vw;
+    background-image: url("../images/dollar_bill_clip_art_by_redflyninja-d9699vi.png");
+    background-size: cover;
+    /*animation: moveLeftToRight 8s 2s linear infinite;*/
+    position: absolute;
+    left: 0;
 }
+/*}*/
+/*@keyframes moveLeftToRight {*/
+    /*0% {  left: -100px;  }*/
+    /*100% {  left: 100%;  }*/
+/*}*/
 
-div #dol2 {
-    margin-top: -35vh;
-    height: 140px;
-    width: 130px;
-    background-image:url("../img/050c9b508ccbac03368e31a12fd2857c.png");
+div .dol4 {
+    margin-top: 21%;
+    height: 7vw;
+    width: 5vw;
+    background-image:url("../images/money-bag-hi.png");
     background-size: cover;
-    animation: moveLeftToRight 10s 1s linear infinite;
+    /*animation: moveLeftToRight 8s 3s linear infinite;*/
     position: absolute;
     left: 0;
-}
-@keyframes moveLeftToRight {
-    0%   { left: -100px; }
-    100% { left: 100%; }
-}
-div #dol3 {
-    margin-top: -35vh;
-    height: 140px;
-    width: 130px;
-    background-image:url("../img/050c9b508ccbac03368e31a12fd2857c.png");
-    background-size: cover;
-    animation: moveLeftToRight 10s 2s linear infinite;
-    position: absolute;
-    left: 0;
-}
-@keyframes moveLeftToRight {
-    0% {  left: -100px;  }
-    100% {  left: 100%;  }
-}
-
-div #dol4 {
-    margin-top: -35vh;
-    height: 140px;
-    width: 130px;
-    background-image:url("../img/050c9b508ccbac03368e31a12fd2857c.png");
-    background-size: cover;
-    animation: moveLeftToRight 10s 3s linear infinite;
-    position: absolute;
-    left: 0;
-}
-@keyframes moveLeftToRight {
-    0% {  left: -100px;  }
-    100% {  left: 100%;  }
-}
-div #dol5 {
-    margin-top: -35vh;
-    height: 140px;
-    width: 130px;
-    background-image:url("../img/050c9b508ccbac03368e31a12fd2857c.png");
-    background-size: cover;
-    animation: moveLeftToRight 10s 4s linear infinite;
-    position: absolute;
-    left: 0;
-}
-@keyframes moveLeftToRight {
-    0% {  left: -100px;  }
-    100% {  left: 100%;  }
-}
-div #dol6 {
-    margin-top: -35vh;
-    height: 140px;
-    width: 130px;
-     background-image:url("../img/050c9b508ccbac03368e31a12fd2857c.png");
-     background-size: cover;
-     animation: moveLeftToRight 10s 5s linear infinite;
-     position: absolute;
-     left: 0;
- }
-@keyframes moveLeftToRight {
-    0% {  left: -100px;  }
-    100% {  left: 100%;  }
-}
-div #dol7 {
-    margin-top: -35vh;
-    height: 140px;
-    width: 130px;
-    background-image:url("../img/050c9b508ccbac03368e31a12fd2857c.png");
-    background-size: cover;
-    animation: moveLeftToRight 10s 6s linear infinite;
-    position: absolute;
-    left: 0;
-}
-@keyframes moveLeftToRight {
-    0% {  left: -100px;  }
-    100% {  left: 100%;  }
-}
-div #dol8 {
-    margin-top: -35vh;
-    height: 140px;
-    width: 130px;
-    background-image:url("../img/050c9b508ccbac03368e31a12fd2857c.png");
-    background-size: cover;
-    animation: moveLeftToRight 10s 7s linear infinite;
-    position: absolute;
-    left: 0;
-}
-@keyframes moveLeftToRight {
-    0% {  left: -100px;  }
-    100% {  left: 100%;  }
-}
-div #dol9 {
-    margin-top: -35vh;
-    height: 140px;
-    width: 130px;
-    background-image:url("../img/050c9b508ccbac03368e31a12fd2857c.png");
-    background-size: cover;
-    animation: moveLeftToRight 10s 8s linear infinite;
-    position: absolute;
-    left: 0;
-}
-@keyframes moveLeftToRight {
-    0% {  left: -100px;  }
-    100% {  left: 100%;  }
-}
-div #dol10 {
-    margin-top: -35vh;
-    height: 140px;
-    width: 130px;
-    background-image:url("../img/050c9b508ccbac03368e31a12fd2857c.png");
-    background-size: cover;
-    animation: moveLeftToRight 10s 9s linear infinite;
-    position: absolute;
-    left: 0;
-}
-@keyframes moveLeftToRight {
-    0% {  left: -100px;  }
-    100% {  left: 100%;  }
 }
 
-div.thief {
+
+div.bilding {
 
     position: absolute;
-margin-left: -40px;
-    left: 86%;
-    top: 35%;
-    z-index: 10;
+margin-left: 0px;
+    left: -1%;
+    top: 26%;
+    z-index: 3;
 }
+ div .bank{
 
-div #steel {
-
-    height: 300px;
-    width: 330px;
-    background-image: url("../img/thief.png");
+    height: 18vw;
+    width: 13vw;
+    background-image: url("../images/150px-WW_Bank.png");
     background-size: cover;
+}
+.pacman{
+background: red;
+height: 5%;
+width: 5%;
+position: absolute;
+right: 0%;
+transition: all 8s linear;
 }
