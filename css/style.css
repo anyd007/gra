@@ -12,15 +12,16 @@ body{
 div.dollars {
 
     position: relative;
-    max-height: 50%;
-    margin-top: 0%;
-    height: 100%;
+    margin-left: 0px;
+    left: -1%;
+    top: 24%;
+    z-index: 3;
 }
 
 div.wallet {
     position: relative;
     margin-left: 10%;
-    margin-right: 15%;
+    margin-right: 28%;
 }
 div .wall1 {
     border-radius: 10%;
@@ -29,7 +30,7 @@ div .wall1 {
     width: 14vw;
     background-image: url("../images/a829a2c10034aabefa12e9a2b5a1548a.png");
     background-size: cover;
-    animation: moveLeftToRight 8s 4s linear infinite alternate;
+    animation: moveLeftToRight 12s 4s linear infinite alternate;
     transition: all 1s ease;
     position: absolute;
     left: 0;
@@ -43,7 +44,7 @@ div .wall1 {
     100% {  left: 0%;  }
 }
 div .dol1 {
-    margin-top: 22%;
+    margin-top: 10%;
     height: 6vw;
     width: 5.5vw;
     background-image:url("../images/050c9b508ccbac03368e31a12fd2857c.png");
@@ -59,7 +60,7 @@ div .dol1 {
 /*}*/
 
 div .dol2 {
-    margin-top: 22%;
+    margin-top: 10%;
     height: 6vw;
     width: 5.5vw;
     background-image:url("../images/animated-clipart-dollar-free-sign-17.png");
@@ -73,7 +74,7 @@ div .dol2 {
     /*100% { left: 100%; }*/
 /*}*/
 div .dol3 {
-    margin-top: 22%;
+    margin-top: 10%;
     height: 6vw;
     width: 10vw;
     background-image: url("../images/dollar_bill_clip_art_by_redflyninja-d9699vi.png");
@@ -89,17 +90,45 @@ div .dol3 {
 /*}*/
 
 div .dol4 {
-    margin-top: 21%;
+    margin-top: 9%;
     height: 7vw;
-    width: 5vw;
-    background-image:url("../images/money-bag-hi.png");
+    width: 7vw;
+    background-image:url("../images/Money_Bag_icon.png");
     background-size: cover;
     /*animation: moveLeftToRight 8s 3s linear infinite;*/
     position: absolute;
     left: 0;
 }
+div .dol5 {
+    margin-top: 10%;
+    height: 7vw;
+    width: 7vw;
+    background-image: url("../images/Coin.png");
+    border-radius: 100%;
+    background-size: cover;
+    /*animation: moveLeftToRight 8s 3s linear infinite;*/
+    position: absolute;
+    left: 0;
+    /*-webkit-box-shadow: 3px 4px 48px 25px rgba(0, 0, 0, 0.75);*/
+    /*-moz-box-shadow: 3px 4px 48px 25px rgba(0, 0, 0, 0.75);*/
+    /*box-shadow: 3px 4px 48px 25px rgba(0, 0, 0, 0.75);*/
+    /*animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);*/
+}
 
-
+.vigwam {
+    position: absolute;
+    margin-left: 0px;
+    left: 82%;
+    top: 21%;
+    z-index: 3;
+}
+.indian {
+    height: 22vw;
+    width: 19vw;
+    background-image: url("../images/indian_icon_by_slamiticon-d5zbn3s.png");
+    background-size: cover;
+    transition: all 1s ease;
+}
 div.bilding {
 
     position: absolute;
@@ -114,12 +143,16 @@ margin-left: 0px;
     width: 13vw;
     background-image: url("../images/150px-WW_Bank.png");
     background-size: cover;
+     transition: all 1s ease;
 }
 .pacman{
-background: red;
+color: red;
 height: 5%;
 width: 5%;
 position: absolute;
 right: 0%;
 transition: all 8s linear;
+}
+.sprint {
+
 }
